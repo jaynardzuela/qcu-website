@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../css/AIChatbot.css";
+import React from "react";
 
 const AIChatbot = () => {
   const [isChatbotVisible, setChatbotVisible] = useState(false);

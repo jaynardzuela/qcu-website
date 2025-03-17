@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import AIChatbot from "../components/AIChatbot";
@@ -10,16 +11,23 @@ const Programs = () => {
       <div className="top-section">
         <Header />
         <div className="programs-section">
-          <h2 className="programs-title">PROGRAMS OFFERED</h2>
+          <div className="programs-banner">
+            <img
+              src="../assets/images/programs-offered-banner.png"
+              alt="Programs Offered"
+              className="banner-image"
+            />
+            <div className="banner-text">Programs Offered</div>
+          </div>
           <div className="programs-grid">
-            <div className="program-item">
+            <Link to="/programs/engineering" className="program-item">
               <img
                 src="../assets/images/coe.png"
                 alt="College of Engineering"
               />
               <div className="program-label">College of Engineering</div>
-            </div>
-            <div className="program-item">
+            </Link>
+            <Link to="/programs/business" className="program-item">
               <img
                 src="../assets/images/cbaa.png"
                 alt="College of Business Administration and Accountancy"
@@ -27,18 +35,18 @@ const Programs = () => {
               <div className="program-label">
                 College of Business Administration and Accountancy
               </div>
-            </div>
-            <div className="program-item">
+            </Link>
+            <Link to="/programs/computer-studies" className="program-item">
               <img
                 src="../assets/images/ccs.png"
                 alt="College of Computer Studies"
               />
               <div className="program-label">College of Computer Studies</div>
-            </div>
-            <div className="program-item">
+            </Link>
+            <Link to="/programs/education" className="program-item">
               <img src="../assets/images/coed.png" alt="College of Education" />
               <div className="program-label">College of Education</div>
-            </div>
+            </Link>
           </div>
         </div>
       </div>

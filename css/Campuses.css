@@ -1,0 +1,48 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
+.campus-header {
+  text-align: center;
+  font-size: 2em;
+  margin: 20px 0;
+}
+
+.campus-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.campus-item {
+  width: 80%;
+  text-align: center;
+}
+
+.campus-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.campus-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.campus-images img {
+  width: 45%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.campus-description {
+  font-size: 0.9em;
+  color: #ffffff;
+}
