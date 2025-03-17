@@ -11,6 +11,8 @@ import Education from "../pages/Education";
 import Accountancy from "../pages/Accountancy";
 import Computer from "../pages/Computer";
 import Campuses from "../pages/Campuses";
+import AcadCalendar from "../pages/AcadCalendar";
+import News from "../pages/News";
 const App = () => {
   return (
     <Router>
@@ -26,6 +28,8 @@ const App = () => {
         <Route path="/programs/business" element={<Accountancy />} />
         <Route path="/programs/computer-studies" element={<Computer />} />
         <Route path="/campuses" element={<Campuses />} />
+        <Route path="/calendar" element={<AcadCalendar />} />
+        <Route path="/news" element={<News />} />
       </Routes>
     </Router>
   );
