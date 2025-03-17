@@ -6,7 +6,7 @@
   }
   
   .top-section {
-    background-image: url('../assets/images/header-bg.png'); /* Add your background image path here */
+   background: linear-gradient(to bottom, rgba(0, 20, 50, 0.5), rgba(0, 52, 119, 0.5)), url('../assets/images/header-bg.png'); /* Add your background image path here */
     background-size: cover;
     background-position: center;
     padding: 20px;
