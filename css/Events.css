@@ -1,0 +1,56 @@
+/* filepath: c:\Users\User\Downloads\ai\my-app\css\Events.css */
+
+.events {
+    padding: 100px;
+    color: white;
+    background-color: rgba(12, 12, 66, 0.9); /* Add transparency */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .events h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .event-month {
+    margin-bottom: 20px;
+  }
+  
+  .event-month h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .event-month p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .event-month p strong {
+    color: #ffcc00;
+  }
+  
+  .see-more {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+  }
+  
+  .see-more-button {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .see-more-button:hover {
+    background-color: #2f00ff;
+  }

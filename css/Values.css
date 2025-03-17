@@ -1,0 +1,40 @@
+/* filepath: c:\Users\User\Downloads\ai\my-app\css\Values.css */
+
+.values {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #002366;
+    color: white;
+    padding: 80px 40px;
+    margin: 40px 0 0 0;
+    text-align: center;
+  }
+  
+  .value-item {
+    flex: 1;
+    margin: 0 20px;
+    padding: 32px;
+  }
+  
+  .value-item h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+  }
+  
+  .value-item p {
+    font-size: 24px;
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 768px) {
+    .values {
+      flex-direction: column;
+    }
+  
+    .value-item {
+      margin-bottom: 20px;
+    }
+  }

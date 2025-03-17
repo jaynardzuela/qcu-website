@@ -1,0 +1,150 @@
+/* filepath: c:\Users\User\Downloads\ai\my-app\css\Calendar.css */
+
+.calendar-container {
+  display: flex;
+  width: 100%;
+  height: 100vh; /* Make it almost the whole page */
+  justify-content: center;
+  align-items: center;
+  gap: 5%; /* Adjust gap as needed */
+  background-image: url('../assets/images/calendar-bg.png'); /* Add your background image path here */
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+  position: relative;
+}
+
+.calendar-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(7, 51, 148, 0.774); /* Darken the background */
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.calendar, .events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+  background-color: rgb(12, 12, 66); /* Add transparency */
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 45%; /* Adjust width as needed */
+  z-index: 2; /* Ensure content is above the dark overlay */
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.calendar-nav-button {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.calendar-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.calendar-grid {
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+}
+
+.calendar-week-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+  gap: 10px;
+}
+
+.calendar-month {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.calendar-week {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2e2e3f;
+  border: 1px solid #444;
+  width: 50px;
+  color: #ff6b6b;
+}
+
+.calendar-content {
+  flex: 1;
+}
+
+.calendar-weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.weekday {
+  text-align: center;
+  font-weight: bold;
+  color: #ff6b6b;
+}
+
+.calendar-days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  justify-items: center;
+}
+
+.calendar-day {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2e2e3f;
+  border: 1px solid #444;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: white;
+}
+
+.calendar-day:hover {
+  background-color: #444;
+}
+
+.calendar-day.today {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+.calendar-day.selected {
+  background-color: #ffcc00;
+  color: white;
+}
+
+.calendar-day.empty {
+  background-color: transparent;
+  border: none;
+  cursor: default;
+}

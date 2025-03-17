@@ -1,0 +1,44 @@
+/* filepath: c:\Users\User\Downloads\ai\my-app\css\Banner.css */
+
+.banner {
+    margin: 24px;
+    height: 40vh;
+    background-image: url('../assets/images/qcu-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .banner-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .banner h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .banner p {
+    font-size: 18px;
+  }
+  
+  @media (max-width: 768px) {
+    .banner {
+      height: 200px;
+    }
+  
+    .banner h1 {
+      font-size: 24px;
+    }
+  
+    .banner p {
+      font-size: 14px;
+    }
+  }

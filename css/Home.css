@@ -1,0 +1,13 @@
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .top-section {
+    background-image: url('../assets/images/header-bg.png'); /* Add your background image path here */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+  }

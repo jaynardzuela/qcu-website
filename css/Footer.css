@@ -1,0 +1,82 @@
+/* filepath: c:\Users\User\Downloads\ai\my-app\css\Footer.css */
+
+.footer {
+    background-color: #002366;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+    gap: 24px;
+  }
+  
+  .footer-logos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+  }
+  
+  .footer-logo {
+    width: 80px;
+    height: auto;
+  }
+  
+  .footer-info {
+    text-align: center;
+  }
+  
+  .footer-info .footer-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+  
+  .footer-info p {
+    font-size: 16px;
+  }
+  
+  .footer-connect {
+    text-align: center;
+  }
+  
+  .footer-connect h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-socials {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .social-logo {
+    width: 30px;
+    height: auto;
+  }
+  
+  .footer-qr {
+    display: flex;
+    justify-content: center;
+}
+  
+  .qr-logo {
+    width: 80px;
+    height: auto;
+  }
+  
+  .footer-bottom {
+    background-color: #001a4d;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+  }

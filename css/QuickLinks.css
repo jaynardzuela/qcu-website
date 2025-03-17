@@ -1,0 +1,66 @@
+/* filepath: c:\Users\User\Downloads\ai\my-app\css\QuickLinks.css */
+
+.quick-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    padding: 0 24px;
+  }
+  
+  .quick-link-button {
+    width: 100%;
+    padding: 16px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .quick-link-button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.822);
+    transition: background-color 0.3s ease;
+  }
+  
+  .quick-link-button:hover::before {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .button-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  .button-icon {
+    width: 140px;
+    height: 140px;
+    filter: brightness(0) invert(1); /* Make the icon white */
+  }
+  
+  .quick-link-button span {
+    font-weight: bold;
+    font-size: 32px;
+  }
+  
+  @media (max-width: 768px) {
+    .quick-links {
+      grid-template-columns: 1fr;
+    }
+  }
