@@ -1,5 +1,3 @@
-// filepath: c:\Users\User\Downloads\ai\my-app\pages\Home.tsx
-import React from "react";
 import Header from "../components/Header.tsx";
 import Banner from "../components/Banner.tsx";
 import QuickLinks from "../components/QuickLinks.tsx";

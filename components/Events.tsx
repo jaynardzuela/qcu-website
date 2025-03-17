@@ -1,5 +1,3 @@
-// filepath: c:\Users\User\Downloads\ai\my-app\components\Events.tsx
-import React from "react";
 import "../css/Events.css";
 
 const Events = () => {
