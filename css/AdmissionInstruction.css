@@ -1,0 +1,9 @@
+.admission-container {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.carousel .slide img {
+  width: 100%;
+  height: auto;
+}

@@ -1,4 +1,5 @@
 import "../css/Values.css";
+import React from "react";
 const Values = () => {
   return (
     <div className="values">

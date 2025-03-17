@@ -1,0 +1,22 @@
+.history-container {
+  background-size: cover;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.history-title {
+  font-size: 2em;
+  color: red;
+  margin-bottom: 20px;
+}
+
+.history-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.history-content p {
+  margin: 10px 0;
+}

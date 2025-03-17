@@ -1,4 +1,5 @@
 import "../css/Events.css";
+import React from "react";
 
 const Events = () => {
   return (
